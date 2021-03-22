@@ -1,0 +1,8 @@
+{
+  "name": "Node-practise",
+  "version": "1.0.0",
+  "dependencies": {
+    "mime": "^2.5.2",
+    "socket.io": "^4.0.0"
+  }
+}
