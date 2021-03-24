@@ -6,6 +6,7 @@ const chatServer = require("./lib/chat_server")
 
 let cache = {}
 
+// 静态资源
 let server = http.createServer(function (request, response) {
   let filePath = null
   if (request.url == '/') {
