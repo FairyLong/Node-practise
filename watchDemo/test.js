@@ -14,4 +14,7 @@ watcher.on('process', function (file) {
   })
 })
 
+/**
+ * node异步 重复事件demo，监听一个文件夹，将文件改到另一个
+ */
 watcher.start()
